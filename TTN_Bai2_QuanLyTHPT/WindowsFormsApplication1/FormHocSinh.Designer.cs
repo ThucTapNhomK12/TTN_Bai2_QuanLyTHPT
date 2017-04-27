@@ -268,7 +268,7 @@
             this.Controls.Add(this.lblTenHocSinh);
             this.Name = "FormHocSinh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormHocSinh";
+            this.Text = "Danh Sachs Học Sinh";
             this.Load += new System.EventHandler(this.FormHocSinh_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgHocSinh)).EndInit();
             this.ResumeLayout(false);
