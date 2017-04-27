@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QuanLyTHPT" Class="QuanLyContextDataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=SV2N2\SV2N2;Initial Catalog=QuanLyTHPT;Integrated Security=True" SettingsObjectName="WindowsFormsApplication1.Properties.Settings" SettingsPropertyName="QuanLyTHPTConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Diem" Member="Diems">
+    <Type Name="Diem">
+      <Column Name="DiemSo" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="HocSinhID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MonHocID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="MonHoc_Diem" Member="MonHoc" ThisKey="MonHocID" OtherKey="MonHocID" Type="MonHoc" IsForeignKey="true" />
+      <Association Name="HocSinh_Diem" Member="HocSinh" ThisKey="HocSinhID" OtherKey="HocSinhID" Type="HocSinh" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MonHoc" Member="MonHocs">
+    <Type Name="MonHoc">
+      <Column Name="MonHocID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TenMonHoc" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="MonHoc_Diem" Member="Diems" ThisKey="MonHocID" OtherKey="MonHocID" Type="Diem" />
+      <Association Name="MonHoc_GiaoVien" Member="GiaoViens" ThisKey="MonHocID" OtherKey="MonHocID" Type="GiaoVien" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GiaoVien" Member="GiaoViens">
+    <Type Name="GiaoVien">
+      <Column Name="GiaoVienID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TenGiaoVien" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="NgaySinh" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="QueQuan" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="MonHocID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="GiaoVien_LopHoc" Member="LopHocs" ThisKey="GiaoVienID" OtherKey="GiaoVienID" Type="LopHoc" />
+      <Association Name="GiaoVien_LichPhanCong" Member="LichPhanCong" ThisKey="GiaoVienID" OtherKey="GiaoVienID" Type="LichPhanCong" Cardinality="One" />
+      <Association Name="MonHoc_GiaoVien" Member="MonHoc" ThisKey="MonHocID" OtherKey="MonHocID" Type="MonHoc" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HocSinh" Member="HocSinhs">
+    <Type Name="HocSinh">
+      <Column Name="HocSinhID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TenHocSinh" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="LopHocID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NgaySinh" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="QuenQuan" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="HocSinh_Diem" Member="Diems" ThisKey="HocSinhID" OtherKey="HocSinhID" Type="Diem" />
+      <Association Name="LopHoc_HocSinh" Member="LopHoc" ThisKey="LopHocID" OtherKey="LopHocID" Type="LopHoc" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LopHoc" Member="LopHocs">
+    <Type Name="LopHoc">
+      <Column Name="LopHocID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TenLopHoc" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="GiaoVienID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="LopHoc_HocSinh" Member="HocSinhs" ThisKey="LopHocID" OtherKey="LopHocID" Type="HocSinh" />
+      <Association Name="GiaoVien_LopHoc" Member="GiaoVien" ThisKey="GiaoVienID" OtherKey="GiaoVienID" Type="GiaoVien" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LichPhanCong" Member="LichPhanCongs">
+    <Type Name="LichPhanCong">
+      <Column Name="GiaoVienID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ThoiGian" Type="System.String" DbType="NVarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Association Name="GiaoVien_LichPhanCong" Member="GiaoVien" ThisKey="GiaoVienID" OtherKey="GiaoVienID" Type="GiaoVien" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

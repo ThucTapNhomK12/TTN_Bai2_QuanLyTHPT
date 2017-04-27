@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -67,6 +68,12 @@
     <Compile Include="FormHocSinh.Designer.cs">
       <DependentUpon>FormHocSinh.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormLichPhanCong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLichPhanCong.Designer.cs">
+      <DependentUpon>FormLichPhanCong.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormLopHoc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,12 +86,6 @@
     <Compile Include="HuongDan.Designer.cs">
       <DependentUpon>HuongDan.cs</DependentUpon>
     </Compile>
-    <Compile Include="LichPhanCong.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LichPhanCong.Designer.cs">
-      <DependentUpon>LichPhanCong.cs</DependentUpon>
-    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +94,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuanLyContextData.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyContextData.dbml</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DiemHS.resx">
       <DependentUpon>DiemHS.cs</DependentUpon>
     </EmbeddedResource>
@@ -105,14 +111,14 @@
     <EmbeddedResource Include="FormHocSinh.resx">
       <DependentUpon>FormHocSinh.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormLichPhanCong.resx">
+      <DependentUpon>FormLichPhanCong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLopHoc.resx">
       <DependentUpon>FormLopHoc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HuongDan.resx">
       <DependentUpon>HuongDan.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="LichPhanCong.resx">
-      <DependentUpon>LichPhanCong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -127,6 +133,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="QuanLyContextData.dbml.layout">
+      <DependentUpon>QuanLyContextData.dbml</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -141,6 +150,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="QuanLyContextData.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>QuanLyContextData.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Resources\user-login-icon-29.png" />
   </ItemGroup>
   <ItemGroup>
@@ -196,6 +210,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\PZ_WhitePolygon131.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

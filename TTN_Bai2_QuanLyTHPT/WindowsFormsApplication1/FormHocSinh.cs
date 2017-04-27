@@ -16,5 +16,10 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void FormHocSinh_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

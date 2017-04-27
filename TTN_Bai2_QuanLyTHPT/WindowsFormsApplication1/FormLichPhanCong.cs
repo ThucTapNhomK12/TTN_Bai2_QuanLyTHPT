@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
 {
-    public partial class LichPhanCong : Form
+    public partial class FormLichPhanCong : Form
     {
-        public LichPhanCong()
+        public FormLichPhanCong()
         {
             InitializeComponent();
+        }
+
+        private void FormLichPhanCong_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
