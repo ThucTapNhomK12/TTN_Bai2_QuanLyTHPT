@@ -69,6 +69,7 @@
             this.cbbDayMon.Name = "cbbDayMon";
             this.cbbDayMon.Size = new System.Drawing.Size(103, 21);
             this.cbbDayMon.TabIndex = 79;
+            this.cbbDayMon.SelectedIndexChanged += new System.EventHandler(this.cbbDayMon_SelectedIndexChanged);
             // 
             // txtIDGiaoVien
             // 
@@ -95,6 +96,7 @@
             this.btnLuu.TabIndex = 76;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.UseVisualStyleBackColor = false;
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // dtpNgaySinh
             // 
@@ -162,6 +164,7 @@
             this.btnTimKiem.TabIndex = 69;
             this.btnTimKiem.Text = "Tìm";
             this.btnTimKiem.UseVisualStyleBackColor = false;
+            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
             // txtTimKiem
             // 
@@ -189,6 +192,7 @@
             this.btnHuy.TabIndex = 66;
             this.btnHuy.Text = "Hủy";
             this.btnHuy.UseVisualStyleBackColor = false;
+            this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
             // 
             // btnXoa
             // 
@@ -199,6 +203,7 @@
             this.btnXoa.TabIndex = 65;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = false;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnSua
             // 
@@ -209,6 +214,7 @@
             this.btnSua.TabIndex = 64;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = false;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // txtTenGv
             // 
@@ -226,6 +232,7 @@
             this.btnThem.TabIndex = 62;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = false;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // dtgGiaoVien
             // 
@@ -236,6 +243,8 @@
             this.dtgGiaoVien.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dtgGiaoVien.Size = new System.Drawing.Size(527, 234);
             this.dtgGiaoVien.TabIndex = 61;
+            this.dtgGiaoVien.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dtgGiaoVien_CellMouseClick);
+            this.dtgGiaoVien.SelectionChanged += new System.EventHandler(this.dtgGiaoVien_SelectionChanged);
             // 
             // lblTenHocSinh
             // 
@@ -277,6 +286,7 @@
             this.Name = "FormGiaoVien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormGiaoVien";
+            this.Load += new System.EventHandler(this.FormGiaoVien_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgGiaoVien)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
