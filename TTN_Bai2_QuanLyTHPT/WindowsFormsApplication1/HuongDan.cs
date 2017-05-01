@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace Bai2ThucTapNhom
 {
-    public partial class HuongDan : Form
+    public partial class Huongdan : Form
     {
-        public HuongDan()
+        public Huongdan()
         {
             InitializeComponent();
         }

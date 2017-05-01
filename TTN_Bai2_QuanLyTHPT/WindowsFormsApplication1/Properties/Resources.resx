@@ -118,64 +118,88 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="score-scorecard-paper-pad-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\score-scorecard-paper-pad-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="7c32448f5a6db92ae192c95cd4667a2e-authorized-red-rounded" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\7c32448f5a6db92ae192c95cd4667a2e-authorized-red-rounded.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PZ_WhitePolygon131" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PZ_WhitePolygon131.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="singing_teacher1600" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\singing_teacher1600.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PZ_WhitePolygon11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PZ_WhitePolygon11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="class-icon-44976" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\class-icon-44976.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="chart" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\chart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Graduation-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Graduation-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Screenshot_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PZ_WhitePolygon12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PZ_WhitePolygon12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PZ_WhitePolygon111" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PZ_WhitePolygon111.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="blue_abstract_background_310971" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blue_abstract_background_310971.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="singing_teacher16001" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\singing_teacher16001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Welcome-Image-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Welcome-Image-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="user-login-icon-29" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user-login-icon-29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PZ_WhitePolygon13" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PZ_WhitePolygon13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Graphicloads-100-Flat-Contact (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Graphicloads-100-Flat-Contact (1).ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="chart1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chart1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key_user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_user.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PZ_WhitePolygon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PZ_WhitePolygon1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user-login-icon-29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user-login-icon-29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="class-icon-44976" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\class-icon-44976.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PZ_WhitePolygon14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PZ_WhitePolygon14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="welcomes_full1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\welcomes_full1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="calendar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\calendar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="chart1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\chart1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="authorized-stamp-24135023" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\authorized-stamp-24135023.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue_abstract_background_3109711" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue_abstract_background_3109711.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PZ_WhitePolygon13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PZ_WhitePolygon13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 (5).ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="welcomes_full" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\welcomes_full.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="score-scorecard-paper-pad-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\score-scorecard-paper-pad-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PZ_WhitePolygon11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PZ_WhitePolygon11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue_abstract_background_310971" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue_abstract_background_310971.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="07ab1a31766fb651431d4a86e78eb297" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\07ab1a31766fb651431d4a86e78eb297.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="160826183108aS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\160826183108aS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Corporate Background 201_preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Corporate Background 201_preview1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Welcome-Image-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Welcome-Image-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graduation-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Graduation-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PZ_WhitePolygon12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PZ_WhitePolygon12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7c32448f5a6db92ae192c95cd4667a2e-authorized-red-rounded" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7c32448f5a6db92ae192c95cd4667a2e-authorized-red-rounded.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

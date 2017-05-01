@@ -1,6 +1,6 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace Bai2ThucTapNhom
 {
-    partial class HuongDan
+    partial class Huongdan
     {
         /// <summary>
         /// Required designer variable.
@@ -38,18 +38,17 @@
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(698, 444);
-            this.webBrowser1.TabIndex = 1;
+            this.webBrowser1.TabIndex = 0;
             this.webBrowser1.Url = new System.Uri("https://sv2n2.wordpress.com/2017/04/24/huong-dan-su-dung-phan-mem-quan-ly-thpt/", System.UriKind.Absolute);
             // 
-            // HuongDan
+            // Huongdan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(698, 444);
             this.Controls.Add(this.webBrowser1);
-            this.Name = "HuongDan";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Hướng dẫn và Liên hệ";
+            this.Name = "Huongdan";
+            this.Text = "Hướng dẫn  và Liên hệ";
             this.ResumeLayout(false);
 
         }

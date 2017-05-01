@@ -8,25 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace Bai2ThucTapNhom
 {
     public partial class FormGiaoVien : Form
     {
-        int flag;
+        int flag ;
         public FormGiaoVien()
         {
             InitializeComponent();
-
         }
-
+       // QuanLyContextDataContext db = new QuanLyContextDataContext();
         QuanLyContextDataDataContext db = new QuanLyContextDataDataContext();
-
         private void FormGiaoVien_Load(object sender, EventArgs e)
         {
             ListGiaoVien();
             ComboMonHoc();
-        }
 
+        }
         public void ListGiaoVien()
         {
 
@@ -44,7 +42,35 @@ namespace WindowsFormsApplication1
                        };
             dtgGiaoVien.DataSource = list;
         }
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+           flag = 1;
+            txtQueQuan.Text = "";
+            txtTenGv.Text = "";
+            dtpNgaySinh.Text = "";
+            txtIDGiaoVien.Text = "";
+            txtQueQuan.Enabled = true;
+            txtTenGv.Enabled = true;
+            dtpNgaySinh.Enabled = true;
+            txtQueQuan.Enabled = true;
+            dtpNgaySinh.Enabled = true;
+            btnSua.Enabled = false;
+            btnXoa.Enabled = false;
+            cbbDayMon.Enabled = true;
+            
+        }
 
+        private void btnSua_Click(object sender, EventArgs e)
+        {
+            flag = 2;
+            txtQueQuan.Enabled = true;
+            txtTenGv.Enabled = true;
+            dtpNgaySinh.Enabled = true;
+            txtIDGiaoVien.Enabled = false;
+            btnThem.Enabled = false;
+            btnXoa.Enabled = false;
+            cbbDayMon.Enabled = true;
+        }
         public void Insert()
         {
             db = new QuanLyContextDataDataContext();
@@ -53,7 +79,7 @@ namespace WindowsFormsApplication1
             giaovien.NgaySinh = DateTime.Parse(dtpNgaySinh.Value.ToString("dd/MM/yyyy", null));
             giaovien.MonHocID = (Int32)cbbDayMon.SelectedValue;
             giaovien.QueQuan = txtQueQuan.Text;
-            // giaovien.LopHocID = (Int32)cbbLop.SelectedValue;
+           // giaovien.LopHocID = (Int32)cbbLop.SelectedValue;
             giaovien.IsActive = true;
             db.GiaoViens.InsertOnSubmit(giaovien);
             try
@@ -93,6 +119,76 @@ namespace WindowsFormsApplication1
             }
         }
 
+        private void btnLuu_Click(object sender, EventArgs e)
+        {
+            if (flag == 1)
+                Insert();
+            else if (flag == 2)
+                Update();
+            flag = 0;
+            ListGiaoVien();
+            txtQueQuan.Enabled = false;
+            txtTenGv.Enabled = false;
+            dtpNgaySinh.Enabled = false;
+            btnXoa.Enabled = true;
+            btnSua.Enabled = true;
+            btnHuy.Enabled = true;
+            btnThem.Enabled = true;
+            btnLuu.Enabled = true;
+        }
+
+        private void dtgGiaoVien_SelectionChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                DataGridViewCell cell = null;
+                foreach (DataGridViewCell selectedCell in dtgGiaoVien.SelectedCells)
+                {
+                    cell = selectedCell;
+                    break;
+                }
+                if (cell != null)
+                {
+                    DataGridViewRow row = cell.OwningRow;
+                    txtIDGiaoVien.Text = row.Cells["GiaoVienID"].Value.ToString();
+                    txtQueQuan.Text = row.Cells["QueQuan"].Value.ToString();
+                    dtpNgaySinh.Text = row.Cells["NgaySinh"].Value.ToString();
+                    txtTenGv.Text = row.Cells["TenGiaoVien"].Value.ToString();
+                    cbbDayMon.Text = row.Cells["DayMon"].Value.ToString();
+                }
+            }
+            catch(Exception ex) { }
+
+        }
+
+        private void dtgGiaoVien_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            txtQueQuan.Enabled = false;
+            txtTenGv.Enabled = false;
+            dtpNgaySinh.Enabled = false;
+            txtIDGiaoVien.Enabled = false;
+            cbbDayMon.Enabled = false;
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            var confirmResult = MessageBox.Show("Bạn chắc chắn muôn xóa??",
+                         "Thông báo !!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (confirmResult == DialogResult.Yes)
+            {
+                Delete();
+            }
+            else
+            {
+            }
+            ListGiaoVien();
+            btnXoa.Enabled = true;
+            btnSua.Enabled = true;
+            btnHuy.Enabled = true;
+            btnThem.Enabled = true;
+            btnLuu.Enabled = true;
+
+        }
         public void Delete()
         {
             db = new QuanLyContextDataDataContext();
@@ -119,7 +215,7 @@ namespace WindowsFormsApplication1
             var list = from a in db.GiaoViens
                        join b in db.MonHocs
                        on a.MonHocID equals b.MonHocID
-                       where b.IsActive == true && a.IsActive == true && (a.TenGiaoVien.Trim().Contains(txtTimKiem.Text) || a.QueQuan.Trim().Contains(txtTimKiem.Text) || b.TenMonHoc.Trim().Contains(txtTimKiem.Text) || a.GiaoVienID.ToString() == (txtTimKiem.Text.ToString()))
+                       where b.IsActive == true && a.IsActive == true && (a.TenGiaoVien.Trim().Contains(txtTimKiem.Text) || a.QueQuan.Trim().Contains(txtTimKiem.Text) || b.TenMonHoc.Trim().Contains(txtTimKiem.Text) || a.GiaoVienID.ToString() ==(txtTimKiem.Text.ToString()))
                        select new
                        {
                            GiaoVienID = a.GiaoVienID,
@@ -132,77 +228,15 @@ namespace WindowsFormsApplication1
 
         }
 
-
-
-        private void btnThem_Click(object sender, EventArgs e)
-        {
-            flag = 1;
-            txtQueQuan.Text = "";
-            txtTenGv.Text = "";
-            dtpNgaySinh.Text = "";
-            txtIDGiaoVien.Text = "";
-            txtQueQuan.Enabled = true;
-            txtTenGv.Enabled = true;
-            dtpNgaySinh.Enabled = true;
-            txtQueQuan.Enabled = true;
-            dtpNgaySinh.Enabled = true;
-            btnSua.Enabled = false;
-            btnXoa.Enabled = false;
-            cbbDayMon.Enabled = true;
-        }
-
-        private void btnSua_Click(object sender, EventArgs e)
-        {
-            flag = 2;
-            txtQueQuan.Enabled = true;
-            txtTenGv.Enabled = true;
-            dtpNgaySinh.Enabled = true;
-            txtIDGiaoVien.Enabled = false;
-            btnThem.Enabled = false;
-            btnXoa.Enabled = false;
-            cbbDayMon.Enabled = true;
-        }
-
-        private void btnLuu_Click(object sender, EventArgs e)
-        {
-            if (flag == 1)
-                Insert();
-            else if (flag == 2)
-                Update();
-            flag = 0;
-            ListGiaoVien();
-            txtQueQuan.Enabled = false;
-            txtTenGv.Enabled = false;
-            dtpNgaySinh.Enabled = false;
-            btnXoa.Enabled = true;
-            btnSua.Enabled = true;
-            btnHuy.Enabled = true;
-            btnThem.Enabled = true;
-            btnLuu.Enabled = true;
-        }
-
-        private void btnXoa_Click(object sender, EventArgs e)
-        {
-            var confirmResult = MessageBox.Show("Bạn chắc chắn muôn xóa??",
-                         "Thông báo !!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (confirmResult == DialogResult.Yes)
-            {
-                Delete();
-            }
-            else
-            {
-            }
-            ListGiaoVien();
-            btnXoa.Enabled = true;
-            btnSua.Enabled = true;
-            btnHuy.Enabled = true;
-            btnThem.Enabled = true;
-            btnLuu.Enabled = true;
-        }
-
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
             Search();
+        }
+
+        private void txtTimKiem_TextChanged(object sender, EventArgs e)
+        {
+            if (txtTimKiem.Text == "")
+                ListGiaoVien();
         }
 
         private void btnHuy_Click(object sender, EventArgs e)
@@ -217,6 +251,7 @@ namespace WindowsFormsApplication1
             txtTenGv.Enabled = false;
             dtpNgaySinh.Enabled = false;
             cbbDayMon.Enabled = false;
+
         }
         public void ComboMonHoc()
         {
@@ -224,7 +259,7 @@ namespace WindowsFormsApplication1
             {
                 var combo = (from a in db.MonHocs select new { a.MonHocID, a.TenMonHoc }).ToList();
                 cbbDayMon.DataSource = combo;
-                cbbDayMon.ValueMember = "MonHocID";
+               cbbDayMon.ValueMember = "MonHocID";
                 cbbDayMon.DisplayMember = "TenMonHoc";
             }
             catch (Exception ex)
@@ -234,44 +269,9 @@ namespace WindowsFormsApplication1
 
         }
 
-        private void dtgGiaoVien_SelectionChanged(object sender, EventArgs e)
-        {
-            try
-            {
-                DataGridViewCell cell = null;
-                foreach (DataGridViewCell selectedCell in dtgGiaoVien.SelectedCells)
-                {
-                    cell = selectedCell;
-                    break;
-                }
-                if (cell != null)
-                {
-                    DataGridViewRow row = cell.OwningRow;
-                    txtIDGiaoVien.Text = row.Cells["GiaoVienID"].Value.ToString();
-                    txtQueQuan.Text = row.Cells["QueQuan"].Value.ToString();
-                    dtpNgaySinh.Text = row.Cells["NgaySinh"].Value.ToString();
-                    txtTenGv.Text = row.Cells["TenGiaoVien"].Value.ToString();
-                    cbbDayMon.Text = row.Cells["DayMon"].Value.ToString();
-                }
-            }
-            catch (Exception ex) { }
-        }
-
-        private void dtgGiaoVien_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            txtQueQuan.Enabled = false;
-            txtTenGv.Enabled = false;
-            dtpNgaySinh.Enabled = false;
-            txtIDGiaoVien.Enabled = false;
-            cbbDayMon.Enabled = false;
-        }
-
         private void cbbDayMon_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
-
-        
-
     }
 }
