@@ -36,10 +36,6 @@ namespace Bai2ThucTapNhom
 
 
             }
-            else
-            {
-                MessageBox.Show("Sai MK hoặc Tên đăng nhập!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
 
         }
 
