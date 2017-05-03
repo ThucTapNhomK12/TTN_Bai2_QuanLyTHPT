@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace Bai2ThucTapNhom
 {
+    // Form dang nhap 
     public partial class DangNhap : Form
     {
         public DangNhap()
@@ -25,7 +26,9 @@ namespace Bai2ThucTapNhom
         private void button1_Click(object sender, EventArgs e)
         {
 
-
+	    // Kiem tra ten dang nhap va mat khau
+            // tenDangNhap = admin
+            // matKhau = ducanh
             if(txtTenDangNhap.Text=="admin" && txtMatKhau.Text=="ducanh") 
             {
                 // DangNhap b = new DangNhap();
@@ -45,6 +48,9 @@ namespace Bai2ThucTapNhom
 
         private void button1_KeyDown(object sender, KeyEventArgs e)
         {
+	    // Kiem tra ten dang nhap va mat khau
+            // tenDangNhap = admin
+            // matKhau = ducanh
             if (txtTenDangNhap.Text == "admin" && txtMatKhau.Text == "ducanh")
             {
                 Form1 a = new Form1();
@@ -55,7 +61,7 @@ namespace Bai2ThucTapNhom
             }
             else
             {
-                MessageBox.Show("Sai MK hoặc Tên đăng nhập!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Sai mật khẩu hoặc Tên đăng nhập!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }
