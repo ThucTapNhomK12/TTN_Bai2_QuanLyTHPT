@@ -51,20 +51,20 @@ namespace Bai2ThucTapNhom
         }
         public void DiemHocSinh()
         {
-                var list = (from a in db.HocSinhs
-                            join b in db.Diems on a.HocSinhID equals b.HocSinhID
-                            join c in db.MonHocs on b.MonHocID equals c.MonHocID
-                            join e in db.LopHocs on a.LopHocID equals e.LopHocID
-                            where a.IsActive == true && b.IsActive == true && c.IsActive == true && e.IsActive == true
-                            select new
-                            {
-                                HocSinhID = b.HocSinhID,
-                                TenHocSinh = a.TenHocSinh,
-                                b.DiemSo,
-                                e.TenLopHoc,
-                                c.TenMonHoc
-                            }).ToList();
-                dtgDiemSo.DataSource = list;
+            var list = (from a in db.HocSinhs
+                        join b in db.Diems on a.HocSinhID equals b.HocSinhID
+                        join c in db.MonHocs on b.MonHocID equals c.MonHocID
+                        join e in db.LopHocs on a.LopHocID equals e.LopHocID
+                        where a.IsActive == true && b.IsActive == true && c.IsActive == true && e.IsActive == true
+                        select new
+                        {
+                            HocSinhID = b.HocSinhID,
+                            TenHocSinh = a.TenHocSinh,
+                            b.DiemSo,
+                            e.TenLopHoc,
+                            c.TenMonHoc
+                        }).ToList();
+            dtgDiemSo.DataSource = list;
             ColumnsHS();
         }
         public void ComboMonHoc()
@@ -163,19 +163,19 @@ namespace Bai2ThucTapNhom
             {
                 foreach (Diem diem in query)
                 {
-                diem.DiemSo = double.Parse(txtDiem.Text);
+                    diem.DiemSo = double.Parse(txtDiem.Text);
                     diem.IsActive = true;
                 }
 
                 db.SubmitChanges();
                 MessageBox.Show("Sửa thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            catch 
+            catch
             {
                 MessageBox.Show("Có lỗi phát sinh!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
-         }
+        }
         public void Delete()
         {
             db = new QuanLyContextDataDataContext();

@@ -51,3 +51,6 @@ E:\Ky8\Source_code_GIT\TTN_Bai2_QuanLyTHPT\TTN_Bai2_QuanLyTHPT\WindowsFormsAppli
 C:\Users\Tran_Long\Desktop\ThucTapNhomK12\TTN_Bai2_QuanLyTHPT\TTN_Bai2_QuanLyTHPT\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
 C:\Users\Tran_Long\Desktop\ThucTapNhomK12\TTN_Bai2_QuanLyTHPT\TTN_Bai2_QuanLyTHPT\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\Tran_Long\Desktop\ThucTapNhomK12\TTN_Bai2_QuanLyTHPT\TTN_Bai2_QuanLyTHPT\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+F:\Ki2_Nam4\Thuctapnhom\TTN_Bai2_QuanLyTHPT\TTN_Bai2_QuanLyTHPT\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+F:\Ki2_Nam4\Thuctapnhom\TTN_Bai2_QuanLyTHPT\TTN_Bai2_QuanLyTHPT\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+F:\Ki2_Nam4\Thuctapnhom\TTN_Bai2_QuanLyTHPT\TTN_Bai2_QuanLyTHPT\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
