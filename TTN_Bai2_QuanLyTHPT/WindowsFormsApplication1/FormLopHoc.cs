@@ -213,7 +213,10 @@ namespace Bai2ThucTapNhom
             txtTenLopHoc.Enabled = false;
             cbbGiaovien.Enabled = false;
             btnXoa.Enabled = true;
-          
+            btnSua.Enabled = true;
+            btnHuy.Enabled = true;
+            btnThem.Enabled = true;
+            btnLuu.Enabled = true;
         }
 
         private void dtgLopHoc_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
@@ -237,7 +240,8 @@ namespace Bai2ThucTapNhom
                 {
                     DataGridViewRow row = cell.OwningRow;
                     txtIDLopHoc.Text = row.Cells["LopHocID"].Value.ToString();
-           
+                    txtTenLopHoc.Text = row.Cells["TenLopHoc"].Value.ToString();
+                    cbbGiaovien.Text = row.Cells["TenGiaoVien"].Value.ToString();
                 }
             }
             catch (Exception ex) { }
@@ -257,7 +261,11 @@ namespace Bai2ThucTapNhom
             btnXoa.Enabled = true;
             btnSua.Enabled = true;
             btnHuy.Enabled = true;
-           
+            btnThem.Enabled = true;
+            btnLuu.Enabled = true;
+            txtIDLopHoc.Enabled = false;
+            txtTenLopHoc.Enabled = false;
+            cbbGiaovien.Enabled = false;
         }
 
         private void cbbGiaovien_SelectionChangeCommitted(object sender, EventArgs e)
