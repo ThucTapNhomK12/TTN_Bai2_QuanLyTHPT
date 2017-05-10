@@ -236,13 +236,7 @@ namespace Bai2ThucTapNhom
                     cell = selectedCell;
                     break;
                 }
-                if (cell != null)
-                {
-                    DataGridViewRow row = cell.OwningRow;
-                    txtIDLopHoc.Text = row.Cells["LopHocID"].Value.ToString();
-                    txtTenLopHoc.Text = row.Cells["TenLopHoc"].Value.ToString();
-                    cbbGiaovien.Text = row.Cells["TenGiaoVien"].Value.ToString();
-                }
+                
             }
             catch (Exception ex) { }
         }
