@@ -67,7 +67,7 @@
             // 
             // toolStripMenuItem1
             // 
-            this.toolStripMenuItem1.Image = global::WindowsFormsApplication1.Properties.Resources.Graduation_256;
+//            this.toolStripMenuItem1.Image = global::WindowsFormsApplication1.Properties.Resources.Graduation_256;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(83, 20);
             this.toolStripMenuItem1.Text = "Học Sinh";
@@ -75,7 +75,7 @@
             // 
             // lớpHọcToolStripMenuItem
             // 
-            this.lớpHọcToolStripMenuItem.Image = global::WindowsFormsApplication1.Properties.Resources.class_icon_44976;
+//            this.lớpHọcToolStripMenuItem.Image = global::WindowsFormsApplication1.Properties.Resources.class_icon_44976;
             this.lớpHọcToolStripMenuItem.Name = "lớpHọcToolStripMenuItem";
             this.lớpHọcToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
             this.lớpHọcToolStripMenuItem.Text = "Lớp Học";
@@ -84,7 +84,7 @@
             // giáoViênToolStripMenuItem
             // 
             this.giáoViênToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
-            this.giáoViênToolStripMenuItem.Image = global::WindowsFormsApplication1.Properties.Resources.singing_teacher16001;
+//            this.giáoViênToolStripMenuItem.Image = global::WindowsFormsApplication1.Properties.Resources.singing_teacher16001;
             this.giáoViênToolStripMenuItem.Name = "giáoViênToolStripMenuItem";
             this.giáoViênToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
             this.giáoViênToolStripMenuItem.Text = "Giáo Viên";
@@ -92,7 +92,7 @@
             // 
             // lichPhanCongToolStripMenuItem
             // 
-            this.lichPhanCongToolStripMenuItem.Image = global::WindowsFormsApplication1.Properties.Resources.calendar;
+     //       this.lichPhanCongToolStripMenuItem.Image = global::WindowsFormsApplication1.Properties.Resources.calendar;
             this.lichPhanCongToolStripMenuItem.Name = "lichPhanCongToolStripMenuItem";
             this.lichPhanCongToolStripMenuItem.Size = new System.Drawing.Size(119, 20);
             this.lichPhanCongToolStripMenuItem.Text = "Lịch Phân Công";
@@ -100,7 +100,7 @@
             // 
             // điểmSốToolStripMenuItem
             // 
-            this.điểmSốToolStripMenuItem.Image = global::WindowsFormsApplication1.Properties.Resources.score_scorecard_paper_pad_512;
+      //      this.điểmSốToolStripMenuItem.Image = global::WindowsFormsApplication1.Properties.Resources.score_scorecard_paper_pad_512;
             this.điểmSốToolStripMenuItem.Name = "điểmSốToolStripMenuItem";
             this.điểmSốToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
             this.điểmSốToolStripMenuItem.Text = "Điểm HS";
@@ -108,7 +108,7 @@
             // 
             // thốngKêToolStripMenuItem
             // 
-            this.thốngKêToolStripMenuItem.Image = global::WindowsFormsApplication1.Properties.Resources.chart;
+         //   this.thốngKêToolStripMenuItem.Image = global::WindowsFormsApplication1.Properties.Resources.chart;
             this.thốngKêToolStripMenuItem.Name = "thốngKêToolStripMenuItem";
             this.thốngKêToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
             this.thốngKêToolStripMenuItem.Text = "Thống kê";
@@ -116,7 +116,7 @@
             // 
             // hướngDẫnToolStripMenuItem
             // 
-            this.hướngDẫnToolStripMenuItem.Image = global::WindowsFormsApplication1.Properties.Resources.Graphicloads_100_Flat_Contact__1_;
+        //    this.hướngDẫnToolStripMenuItem.Image = global::WindowsFormsApplication1.Properties.Resources.Graphicloads_100_Flat_Contact__1_;
             this.hướngDẫnToolStripMenuItem.Name = "hướngDẫnToolStripMenuItem";
             this.hướngDẫnToolStripMenuItem.Size = new System.Drawing.Size(144, 20);
             this.hướngDẫnToolStripMenuItem.Text = "Hướng dẫn - Liên hệ";
@@ -166,7 +166,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::WindowsFormsApplication1.Properties.Resources._7c32448f5a6db92ae192c95cd4667a2e_authorized_red_rounded;
+//            this.pictureBox2.Image = global::WindowsFormsApplication1.Properties.Resources._7c32448f5a6db92ae192c95cd4667a2e_authorized_red_rounded;
             this.pictureBox2.Location = new System.Drawing.Point(572, 365);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(100, 79);
@@ -177,7 +177,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::WindowsFormsApplication1.Properties.Resources.Welcome_Image_1;
+        //    this.pictureBox1.Image = global::WindowsFormsApplication1.Properties.Resources.Welcome_Image_1;
             this.pictureBox1.Location = new System.Drawing.Point(28, 56);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(644, 142);
@@ -189,7 +189,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources._4;
+       //     this.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources._4;
             this.ClientSize = new System.Drawing.Size(698, 444);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.label3);

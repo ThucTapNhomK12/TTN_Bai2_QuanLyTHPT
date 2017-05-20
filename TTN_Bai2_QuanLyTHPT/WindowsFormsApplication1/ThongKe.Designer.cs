@@ -120,7 +120,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Bai2ThucTapNhom.Properties.Resources.chart1;
+//            this.pictureBox1.Image = global::Bai2ThucTapNhom.Properties.Resources.chart1;
             this.pictureBox1.Location = new System.Drawing.Point(543, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(143, 140);
@@ -132,7 +132,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Bai2ThucTapNhom.Properties.Resources.PZ_WhitePolygon14;
+//            this.BackgroundImage = global::Bai2ThucTapNhom.Properties.Resources.PZ_WhitePolygon14;
             this.ClientSize = new System.Drawing.Size(698, 444);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label3);

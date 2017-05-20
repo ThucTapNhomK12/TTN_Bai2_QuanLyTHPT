@@ -1,6 +1,6 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace Bai2ThucTapNhom
 {
-    partial class FormLichPhanCong
+    partial class LichPhanCongg
     {
         /// <summary>
         /// Required designer variable.
@@ -272,11 +272,10 @@
             this.lblLop.TabIndex = 111;
             this.lblLop.Text = "Mã Giáo Viên";
             // 
-            // FormLichPhanCong
+            // LichPhanCongg
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources.PZ_WhitePolygon11;
             this.ClientSize = new System.Drawing.Size(698, 444);
             this.Controls.Add(this.txtThoiGianDay);
             this.Controls.Add(this.txtThoiGian);
@@ -294,13 +293,12 @@
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.dtgLichPhanCong);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.btnTimKiem);
             this.Controls.Add(this.lblLop);
-            this.Name = "FormLichPhanCong";
+            this.Name = "LichPhanCongg";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lịch Phân Công Giảng Dạy";
-            this.Load += new System.EventHandler(this.FormLichPhanCong_Load);
+            this.Load += new System.EventHandler(this.LichPhanCongg_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.dtgLichPhanCong)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

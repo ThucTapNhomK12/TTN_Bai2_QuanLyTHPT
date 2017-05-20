@@ -31,7 +31,7 @@ namespace WindowsFormsApplication1
 
         private void giáoViênToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormGiaoVien c = new FormGiaoVien();
+            FormGiaoVien a = new FormGiaoVien();
             c.Show();
         }
 
