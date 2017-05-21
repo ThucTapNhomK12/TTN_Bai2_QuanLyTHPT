@@ -1,0 +1,99 @@
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\Bai2ThucTapNhom.exe.config
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\Bai2ThucTapNhom.exe
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\Bai2ThucTapNhom.pdb
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.Form1.resources
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.FormGiaoVien.resources
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.FormHocSinh.resources
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.Properties.Resources.resources
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.csproj.GenerateResource.Cache
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.exe
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.pdb
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.csprojResolveAssemblyReference.cache
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.FormLopHoc.resources
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.LichPhanCongg.resources
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.DiemHS.resources
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\DevExpress.Data.v15.1.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\DevExpress.Printing.v15.1.Core.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\DevExpress.Sparkline.v15.1.Core.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\DevExpress.Utils.v15.1.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\DevExpress.XtraEditors.v15.1.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\DevExpress.Data.v15.1.xml
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\DevExpress.Printing.v15.1.Core.xml
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\DevExpress.Sparkline.v15.1.Core.xml
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\DevExpress.Utils.v15.1.xml
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\DevExpress.XtraEditors.v15.1.xml
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\de\DevExpress.Data.v15.1.resources.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\es\DevExpress.Data.v15.1.resources.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\ja\DevExpress.Data.v15.1.resources.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\ru\DevExpress.Data.v15.1.resources.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\de\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\es\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\ja\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\ru\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\de\DevExpress.Sparkline.v15.1.Core.resources.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\es\DevExpress.Sparkline.v15.1.Core.resources.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\ja\DevExpress.Sparkline.v15.1.Core.resources.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\ru\DevExpress.Sparkline.v15.1.Core.resources.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\de\DevExpress.Utils.v15.1.resources.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\es\DevExpress.Utils.v15.1.resources.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\ja\DevExpress.Utils.v15.1.resources.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\ru\DevExpress.Utils.v15.1.resources.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\de\DevExpress.XtraEditors.v15.1.resources.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\es\DevExpress.XtraEditors.v15.1.resources.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\ja\DevExpress.XtraEditors.v15.1.resources.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\ru\DevExpress.XtraEditors.v15.1.resources.dll
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.DangNhap.resources
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.exe.licenses
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.ThongKe.resources
+C:\Users\DUCANH\Documents\Visual Studio 2015\Projects\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.Huongdan.resources
+E:\FullProjectThucTapNhom\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\Bai2ThucTapNhom.exe.config
+E:\FullProjectThucTapNhom\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.exe
+E:\FullProjectThucTapNhom\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.pdb
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\Bai2ThucTapNhom.exe.config
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.exe
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.pdb
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\Bai2ThucTapNhom.exe
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\Bai2ThucTapNhom.pdb
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\DevExpress.Data.v15.1.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\DevExpress.Printing.v15.1.Core.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\DevExpress.Sparkline.v15.1.Core.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\DevExpress.Utils.v15.1.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\DevExpress.XtraEditors.v15.1.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\DevExpress.Data.v15.1.xml
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\DevExpress.Printing.v15.1.Core.xml
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\DevExpress.Sparkline.v15.1.Core.xml
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\DevExpress.Utils.v15.1.xml
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\DevExpress.XtraEditors.v15.1.xml
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\de\DevExpress.Data.v15.1.resources.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\es\DevExpress.Data.v15.1.resources.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\ja\DevExpress.Data.v15.1.resources.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\ru\DevExpress.Data.v15.1.resources.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\de\DevExpress.Printing.v15.1.Core.resources.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\es\DevExpress.Printing.v15.1.Core.resources.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\ja\DevExpress.Printing.v15.1.Core.resources.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\ru\DevExpress.Printing.v15.1.Core.resources.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\de\DevExpress.Sparkline.v15.1.Core.resources.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\es\DevExpress.Sparkline.v15.1.Core.resources.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\ja\DevExpress.Sparkline.v15.1.Core.resources.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\ru\DevExpress.Sparkline.v15.1.Core.resources.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\de\DevExpress.Utils.v15.1.resources.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\es\DevExpress.Utils.v15.1.resources.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\ja\DevExpress.Utils.v15.1.resources.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\ru\DevExpress.Utils.v15.1.resources.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\de\DevExpress.XtraEditors.v15.1.resources.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\es\DevExpress.XtraEditors.v15.1.resources.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\ja\DevExpress.XtraEditors.v15.1.resources.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\bin\Debug\ru\DevExpress.XtraEditors.v15.1.resources.dll
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.csprojResolveAssemblyReference.cache
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.DangNhap.resources
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.DiemHS.resources
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.Form1.resources
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.FormGiaoVien.resources
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.FormHocSinh.resources
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.FormLopHoc.resources
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.Huongdan.resources
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.LichPhanCongg.resources
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.Properties.Resources.resources
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.ThongKe.resources
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.csproj.GenerateResource.Cache
+E:\ThucTapNhomHocLai\FullProjectThucTapNhom_(KhongDung_MoiTinh)\Bai2ThucTapNhom\Bai2ThucTapNhom\obj\Debug\Bai2ThucTapNhom.exe.licenses
